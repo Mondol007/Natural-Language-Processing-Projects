@@ -1,6 +1,6 @@
 # Natural-Language-Processing-Projects
 
-### Transformers
+## Transformers
 
 - **Imports Transformers Library**: Utilized the transformers library to access various NLP models through pipelines.
 - **Sentiment Analysis**: Analyzed the sentiment of individual and multiple sentences, categorizing them as 'POSITIVE' or 'NEGATIVE' with associated confidence scores.
@@ -14,7 +14,7 @@
 
 
 
-### Langchain
+## Langchain
 
 - **Necessary Libraries**: Used LangChain and Hugging Face Hub to interact with pre-trained language models.
 - **Prompt Template**: Created a Prompt Template for generating responses to user-defined questions, specifying placeholders for questions and answers.
@@ -25,29 +25,29 @@
 
 
 
-### Question Answering on Squad Dataset
+## Question Answering on Squad Dataset
 
-##### Data Preprocessing:
+### Data Preprocessing:
 
 - Tokenized questions and contexts with AutoTokenizer from Hugging Face, implementing truncation and stride for large contexts.
 - Prepared training examples by calculating start and end token positions for each answer.
 - Processed validation examples similarly to maintain consistency for evaluation.
 
-##### Model:
+### Model:
 
 - Fine-tuned the BERT model (specifically bert-base-cased) for the question-answering task.
 - Implemented the Trainer class from Hugging Face for efficient training.
 
-##### Training Methodology:
+### Training Methodology:
 
 - Configured training with specified hyperparameters (e.g., learning rate, epochs).
 - Employed mixed precision training using fp16 for faster performance.
 - Evaluated model performance after each epoch using Exact Match and F1 score metrics.
 
-##### Results:
+### Results:
 
 - Achieved an **Exact Match** score of approximately **81.18**% and an **F1 score** of about **88.67**% on the validation dataset.
 
-Inference:
+### Inference:
 
 - Utilized a question-answering pipeline to predict answers from a given context, demonstrating the trained model's capability in a practical scenario.
