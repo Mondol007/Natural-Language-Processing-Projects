@@ -12,6 +12,8 @@
 - **Text Summarization**: Summarized a longer passage into a concise summary, highlighting the main points.
 - **Translation**: Translated text from French to English, demonstrating multilingual capabilities.
 
+
+
 ### Langchain
 
 - **Necessary Libraries**: Used LangChain and Hugging Face Hub to interact with pre-trained language models.
@@ -20,6 +22,7 @@
 - **Handling Multiple Questions**: Defined a list of questions related to sports and measurements.
 - **Answer Generation**: Iterated through the list of questions, using the LLMChain to generate answers for each question based on the defined prompt template.
 - **Results Display**: Printed each question and the corresponding generated answer, demonstrating the model's ability to provide informative responses.
+
 
 
 ### Question Answering on Squad Dataset
