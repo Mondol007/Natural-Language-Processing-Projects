@@ -6,7 +6,7 @@
 - **Sentiment Analysis**: Analyzed the sentiment of individual and multiple sentences, categorizing them as 'POSITIVE' or 'NEGATIVE' with associated confidence scores.
 - **Zero-Shot Classification**: Classified a given sentence into predefined categories without prior training, indicating the most relevant labels and their confidence scores.
 - **Text Generation**: Generated text based on a given prompt using the text-generation pipeline, providing one or more sequences of text continuation.
-- **Mask Filling**: Predicted and fills in masked words in a sentence using the fill-mask pipeline, returning possible replacements with confidence scores.
+- **Mask Filling**: Predicted and filled in masked words in a sentence using the fill-mask pipeline, returning possible replacements with confidence scores.
 - **Named Entity Recognition (NER)**: Identified and classified named entities (e.g., persons, organizations, locations) in a given sentence, with associated confidence scores.
 - **Question Answering**: Answered questions based on a provided context, returning the answer with its confidence score and character positions.
 - **Text Summarization**: Summarized a longer passage into a concise summary, highlighting the main points.
@@ -18,7 +18,7 @@
 
 - **Necessary Libraries**: Used LangChain and Hugging Face Hub to interact with pre-trained language models.
 - **Prompt Template**: Created a Prompt Template for generating responses to user-defined questions, specifying placeholders for questions and answers.
-- **Language Model**: The HuggingFaceHub class loaded the **Bloom** model for generating text responses, which has adjustable parameters like temperature and maximum response length.
+- **Language Model**: The HuggingFaceHub class loaded the **Bloom** model for generating text responses, which had adjustable parameters like temperature and maximum response length.
 - **Handling Multiple Questions**: Defined a list of questions related to sports and measurements.
 - **Answer Generation**: Iterated through the list of questions, using the LLMChain to generate answers for each question based on the defined prompt template.
 - **Results Display**: Printed each question and the corresponding generated answer, demonstrating the model's ability to provide informative responses.
